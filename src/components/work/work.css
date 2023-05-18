@@ -1,0 +1,117 @@
+.work__container {
+  grid-template-columns: repeat(2, 420px);
+  column-gap: 3rem;
+  justify-content: center;
+  /* margin-bottom: 135px; */
+  padding-top: 20px;
+  padding-bottom: 135px;
+}
+
+.work__content {
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1) ;
+  padding: 2rem 4rem;
+  border-radius: 1.25rem;
+}
+
+.work__title{
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  text-align: center;
+  margin-bottom: var(--mb-1-5);
+}
+
+.work__box {
+  display: flex;
+  justify-content: center;
+  column-gap: 2.5rem;
+}
+
+.work__group {
+  display: grid;
+  align-items: flex-start;
+  row-gap: 1rem;
+}
+
+.work__data {
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.work__level {
+  font-size: var(--small-font-size);
+}
+
+.work__img {
+  width: 300px;
+  border-radius: 1rem;
+  justify-self: center;
+  height: 165px;
+  margin-top: var(--mb-1-5);
+}
+
+.work .uil-github-alt{
+  font-size: 1rem;
+  color: var(--title-color);
+}
+
+.work__social-link {
+  background-color: var(--title-color);
+  color: var(--container-color);
+  font-size: 2rem;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  display: inline-flex;
+  margin-top: 1rem;
+}
+
+.work__social-link:hover {
+  background-color: var(--title-color-dark);
+}
+
+.work__title {
+  margin-bottom: 1rem;
+  color: var(--title-color);
+}
+
+.work__title::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  background-color: white;
+  left: 0;
+  top: 1rem;
+}
+
+/* break points */
+/* for large devices */
+@media screen and (max-width: 992px) { 
+  .work__container{
+    grid-template-columns: max-content;
+    row-gap: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .work__container {
+      grid-template-columns: 1fr;
+  }
+
+  .work__content {
+      padding: 1.5rem;
+  }
+}
+
+/* for small divices */
+@media screen and (max-width: 350px) {
+  .work__box{
+      column-gap: 1.25rem;
+  }
+
+  .work__name{
+      font-size: var(--small-font-size);
+  }
+}
+

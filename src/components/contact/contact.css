@@ -1,0 +1,33 @@
+/* .contact {
+    margin-top: 5rem;
+} */
+
+.contact__container {
+    grid-template-columns: repeat(1, max-content);
+    justify-content: center;
+    column-gap: 5.5rem;
+    padding-bottom: 6rem;
+    margin-bottom: 70px;
+}
+
+
+.contact__info {
+    display: grid;
+    row-gap: 1rem;
+    grid-template-columns: 300px;
+}
+
+.contact__card{
+    padding: 0;
+    border-radius: 0.75rem;
+    text-align: center;
+}
+
+.contact__card-title{
+    font-size: var(--h3-font-size);
+    color: var(--text-color);
+}
+
+.contact__card-title:hover{
+    background-color: var(--title-color-dark);
+}
