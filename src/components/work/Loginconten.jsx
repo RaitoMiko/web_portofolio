@@ -10,7 +10,7 @@ const Loginconten = () => {
       <div className="work__box">
         <div className="work__group">
           <div className="work__data">
-            <i class="uil uil-github-alt"></i>
+            <i className="uil uil-github-alt"></i>
             <div>
               {/* <h3 className="skills__name">Html</h3> */}
               <span className="work__level">Login & Register use JWT: Node JS, Express, React JS, and Postgres.</span>

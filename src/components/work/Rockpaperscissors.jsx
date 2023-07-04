@@ -10,7 +10,7 @@ const Rockpaperscissors = () => {
     <div className="work__box">
       <div className="work__group">
         <div className="work__data">
-          <i class="uil uil-github-alt"></i>
+          <i className="uil uil-github-alt"></i>
           <div>
             {/* <h3 className="skills__name">Html</h3> */}
             <span className="work__level">Rock Paper Scissors Web Game : Html, CSS, Bootstrap, Javascript.</span>
