@@ -1,10 +1,10 @@
 .work__container {
   grid-template-columns: repeat(2, 420px);
-  column-gap: 3rem;
+  column-gap: 2rem;
   justify-content: center;
   /* margin-bottom: 135px; */
-  padding-top: 20px;
-  padding-bottom: 135px;
+  padding-top: 10px;
+  padding-bottom: 80px;
 }
 
 .work__content {
@@ -46,7 +46,7 @@
   width: 300px;
   border-radius: 1rem;
   justify-self: center;
-  height: 165px;
+  height: 150px;
   margin-top: var(--mb-1-5);
 }
 
